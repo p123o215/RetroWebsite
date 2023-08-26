@@ -1,4 +1,75 @@
 <HTML>
+    <body>
+        <div class="navbar">
+            <div class="dropdown">
+              <button class="dropbtn">GBC
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="gbcgames.html">Games</a>
+                <a href="gbcess.html">Accesories</a>
+                <a href="gbcinfo.html">Info</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+              <button class="dropbtn">NES
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="nesgames.html">Games</a>
+                <a href="nesess.html">Accesories</a>
+                <a href="nesinfo.html">Info</a>
+              </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Atari
+                  <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                  <a href="atarigames.html">Games</a>
+                  <a href="atariess.html">Accesories</a>
+                  <a href="atariinfo.html">Info</a>
+                </div>
+              </div>
+    
+            <div class="dropdown">
+              <button class="dropbtn">SNES
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="snesgames.html">Games</a>
+                <a href="snesess.html">Accesories</a>
+                <a href="snesinfo.html">Info</a>
+              </div>
+            </div>
+    
+            <div class="dropdown">
+              <button class="dropbtn">GameCube
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="GCgames.html">Games</a>
+                <a href="GCess.html">Accesories</a>
+                <a href="GCinfo.html">Info</a>
+              </div>
+            </div>
+    
+            <div class="dropdown">
+              <button class="dropbtn">N64
+                <i class="fa fa-caret-down"></i>
+              </button>
+              <div class="dropdown-content">
+                <a href="n64games.html">Games</a>
+                <a href="n64ess.html">Accesories</a>
+                <a href="n64info.html">Info</a>
+              </div>
+            </div>
+    
+          </div>
+    </body>
+
     <header>
         <div class="text">
             <h1>Atari Accesories List</h1>
@@ -12,65 +83,83 @@
                 <br>
             </p>
         </div>
-        
-        <div class="text">
-        <h1 style="text-align:center;">Please select an option or back to main page.</h1>
-        <div class="dropdown">
-        <button class="dropbtn">Type</button>
-        <div class="dropdown-content">
-        <a href="atarigames.html">Games</a>
-        <a href="atariess.html">Accesories</a>
-        <a href="atariinfo.html">Info</a>
-        <a href="index.html">Back</a>
-        </div>
-        </div>
-        </div>
 
         <div class="img";>
-            <img src="snes.png" alt="N64">
+            <img src="atari.png" alt="Atari">
         </div>
 
     </body>
     
     <style>
-        .dropbtn {
-          background-color: black;
+        /* Navbar container */
+        .navbar {
+          overflow: hidden;
+          background-color: #333;
+          font-family: Arial;
+        }
+  
+        /* Links inside the navbar */
+        .navbar a {
+          float: left;
+          font-size: 16px;
           color: white;
-          padding: 16px;
-          font-family:'Courier New';
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+        }
+  
+        /* The dropdown container */
+        .dropdown {
+          float: left;
+          overflow: hidden;
+        }
+  
+        /* Dropdown button */
+        .dropdown .dropbtn {
           font-size: 16px;
           border: none;
+          outline: none;
+          color: white;
+          padding: 14px 16px;
+          background-color: inherit;
+          font-family: inherit; /* Important for vertical align on mobile phones */
+          margin: 0; /* Important for vertical align on mobile phones */
         }
-        
-        .dropdown {
-          font-family:'Courier New';
-          position: relative;
-          display: inline-block;
+  
+        /* Add a red background color to navbar links on hover */
+        .navbar a:hover, .dropdown:hover .dropbtn {
+          background-color: red;
         }
-        
+  
+        /* Dropdown content (hidden by default) */
         .dropdown-content {
           display: none;
           position: absolute;
-          background-color: #f1f1f1;
+          background-color: #f9f9f9;
           min-width: 160px;
           box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
           z-index: 1;
-          background-color:lightgrey;
-          border: 15px groove black;
-          padding:15px;
-          margin-bottom: 20px;
         }
-        
+  
+        /* Links inside the dropdown */
         .dropdown-content a {
+          float: none;
           color: black;
           padding: 12px 16px;
           text-decoration: none;
           display: block;
+          text-align: left;
         }
-        
-        .dropdown-content a:hover {background-color: #ddd;}
-        .dropdown:hover .dropdown-content {display: block;}
-        .dropdown:hover .dropbtn {background-color: black;}
+  
+        /* Add a grey background color to dropdown links on hover */
+        .dropdown-content a:hover {
+          background-color: #ddd;
+        }
+  
+        /* Show the dropdown menu on hover */
+        .dropdown:hover .dropdown-content {
+          display: block;
+        }
                 
         header{
             text-align:center;
