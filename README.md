@@ -7,5 +7,5 @@ ex.
 ```shell
 git clone https://github.com/p123o215/RetroWebsite/
 ```
-# Please do not copy and repost make changes and repost then
+# Please do not copy and repost make changes then repost
 
