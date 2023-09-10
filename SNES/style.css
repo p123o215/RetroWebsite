@@ -1,1 +1,165 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
 
+.wrapper {
+  position: absolute;
+  height: 9em;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  filter: drop-shadow(7px 5px 5px #777);
+}
+
+  .D-Pad {
+    /* define variable sizes depending on current minimum viewport size */
+    /* using linear equation y = mx + b for points (x1,y1) and (x2,y2) */
+    --button-size: calc(20.834vmin + 1.25rem); /* (240,70)(1080,245) */
+    --button-text: calc(0.556vmin + 0.625rem); /* (360,12)(1080, 16) */
+}
+
+.D-Pad, .D-Pad>* {
+    /* Default Flexbox row containers */
+    display: flex; justify-content: center; align-items: center;
+}
+.D-Pad, .btn-col {
+    /* Flexbox column containers */
+    flex-direction: column;
+}
+.btn-col {
+    width: var(--button-size);
+  }
+.btn-row { 
+    /*border:black;
+    border-style: groove;*/
+    justify-content: space-between;      /* push buttons to either side */
+}
+.btn-col > *,  /* Using wildcards so any element will work, not only <button> */
+.btn-row > * {
+  border:black;
+  border-style: groove;
+  font-size: var(--button-text);
+  width: 25px;
+  height: 25px;
+  aspect-ratio: 1; /* make it a square */
+}
+
+/* Just demo */
+.center { 
+  border:black;
+    border-style: groove;
+  border:grey;
+    border-style: groove;
+display: grid; place-items: center; text-align: center 
+}
+.center {
+  border:grey;
+    border-style: groove;
+padding: 0.5em }
+
+
+
+      /* Navbar container */
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+        font-family: Arial;
+      }
+
+      /* Links inside the navbar */
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* The dropdown container */
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+
+      /* Dropdown button */
+      .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit; /* Important for vertical align on mobile phones */
+        margin: 0; /* Important for vertical align on mobile phones */
+      }
+
+      /* Add a red background color to navbar links on hover */
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+      }
+
+      /* Dropdown content (hidden by default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      /* Add a grey background color to dropdown links on hover */
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+                
+        header{
+            text-align:center;
+            font-family:'Courier New';
+        }
+        
+        p{
+            text-align:center;
+            font-family:'Courier New';
+        }
+        
+        body{
+            background-color:grey;
+            font-family:'Courier New';
+        }
+        
+        div[class="text"]{
+            background-color:lightgrey;
+            border: 15px groove black;
+            font-size: 25px;
+            padding:15px;
+            margin-bottom: 20px;
+        }
+
+        div[class="img"]{
+            align-content: center;
+            background-color:grey;
+            border: 15px groove black;
+            margin-bottom: 20px;
+            width:315px;
+        }
