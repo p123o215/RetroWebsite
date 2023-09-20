@@ -179,7 +179,8 @@ padding: 0.5em }
 
       /* Dropdown button */
       .dropdown .dropbtn {
-        font-size: 35px;
+        text-align: center;
+        font-size: 25px;
         border: none;
         outline: none;
         color: white;
