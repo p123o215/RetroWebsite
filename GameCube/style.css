@@ -141,8 +141,8 @@ justify-content: space-between;      /* push buttons to either side */
 border:black;
 border-style: groove;
 font-size: var(--button-text);
-width: 25px;
-height: 25px;
+width: 35px;
+height: 35px;
 aspect-ratio: 1; /* make it a square */
 }
 
@@ -185,7 +185,7 @@ padding: 0.5em }
 
 /* Dropdown button */
 .dropdown .dropbtn {
-  font-size: 16px;
+  font-size: 26px;
   border: none;
   outline: none;
   color: white;
