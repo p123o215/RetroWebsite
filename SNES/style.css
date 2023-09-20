@@ -134,8 +134,8 @@
   border:black;
   border-style: groove;
   font-size: var(--button-text);
-  width: 55px;
-  height: 55px;
+  width: 45px;
+  height: 45px;
   aspect-ratio: 1; /* make it a square */
 }
 
