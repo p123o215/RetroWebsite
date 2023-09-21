@@ -15,6 +15,7 @@ git clone https://github.com/p123o215/RetroWebsite/
 # V1.0.0
 Main creation of the website.
 added consoles NES, SNES, atari, and N64, and Menu.
+<br>
 Gamecube was existing but not being used.
 # V1.1.0
 Fixed some issues including: nes, and images (2).
