@@ -8,3 +8,16 @@ ex.
 git clone https://github.com/p123o215/RetroWebsite/
 ```
 # Please do not copy and repost make changes then repost
+
+
+
+#Documentation on versions
+#V1.0.0
+Main creation of the website.
+added consoles NES, SNES, atari, and N64, and Menu.
+Gamecube was existing but not being used.
+#V1.1.0
+Fixed some issues including: nes, images (2), 
+Closed without copleting issue: Password Username.
+#V1.2.0
+Fixed issues: Cartridge, Images (13), Images (14), Title, Mobile, CSS, and GameCube.
