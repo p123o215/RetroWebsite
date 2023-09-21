@@ -3,6 +3,7 @@ A website for keeping track of our retro gaming consoles and corrasponding games
 
 # Use
 Please use git for any coding purposes beacuse its simpler for you and looks nicer.
+<br>
 ex. 
 ```shell
 git clone https://github.com/p123o215/RetroWebsite/
