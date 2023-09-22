@@ -1,3 +1,4 @@
+
 *,
 *:before,
 *:after {
@@ -20,33 +21,29 @@
   background: #000;
   padding: 12px;
   border: 1px solid #222;
-/*   background: #51D6FF; */
-/*   background: #37FF8B; */
 }
 
 .D-Pad {
-    /* define variable sizes depending on current minimum viewport size */
-    /* using linear equation y = mx + b for points (x1,y1) and (x2,y2) */
-    --button-size: calc(20.834vmin + 1.25rem); /* (240,70)(1080,245) */
-    --button-text: calc(0.556vmin + 0.625rem); /* (360,12)(1080, 16) */
+    --button-size: calc(20.834vmin + 1.25rem);
+    --button-text: calc(0.556vmin + 0.625rem);
 }
 
 .D-Pad, .D-Pad>* {
-    /* Default Flexbox row containers */
     display: flex; justify-content: center; align-items: center;
 }
+
 .D-Pad, .btn-col {
-    /* Flexbox column containers */
     flex-direction: column;
 }
+
 .btn-col {
     width: var(--button-size);
-  }
-.btn-row { 
-    /*border:black;
-    border-style: groove;*/
-    justify-content: space-between;      /* push buttons to either side */
 }
+
+.btn-row { 
+    justify-content: space-between;
+}
+
 .btn-col > *, 
 .btn-row > * {
   border:black;
@@ -54,10 +51,9 @@
   font-size: var(--button-text);
   width: 35px;
   height: 35px;
-  aspect-ratio: 1; /* make it a square */
+  aspect-ratio: 1;
 }
 
-/* Just demo */
 .center { 
   border:black;
   border-style: groove;
@@ -68,8 +64,9 @@
 
 .center {
   border:grey;
-    border-style: groove;
-padding: 0.5em }
+  border-style: groove;
+  padding: 0.5em 
+}
 
 
 /* Navbar container */
