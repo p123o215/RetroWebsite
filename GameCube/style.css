@@ -156,7 +156,7 @@ body{
 
 div[class="text"]{
     background-color:lightgrey;
-    border: 15px groove black;
+    border: 15px groove teal;
     font-size: 25px;
     padding:15px;
     margin-bottom: 20px;
