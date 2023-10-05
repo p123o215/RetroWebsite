@@ -106,7 +106,7 @@
 
 /* Add a red background color to navbar links on hover */
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: blue;
+  background-color: darkblue;
 }
 
 /* Dropdown content (hidden by default) */
@@ -156,7 +156,7 @@ body{
 
 div[class="text"]{
     background-color:lightgrey;
-    border: 15px groove blue;
+    border: 15px groove darkblue;
     font-size: 25px;
     padding:15px;
     margin-bottom: 20px;
@@ -165,7 +165,7 @@ div[class="text"]{
 div[class="img"]{
     align-content: center;
     background-color:grey;
-    border: 15px groove black;
+    border: 15px groove darkblue;
     margin-bottom: 20px;
     width:315px;
 }
