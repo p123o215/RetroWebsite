@@ -1,0 +1,27 @@
+{
+"Data":{
+"id": 1312,
+"Name": "Steem Dollars",
+"Symbol": "SBD",
+"website_slug": "steem-dollars",
+"Level": 313,
+"circulating_supply": 15185862.0,
+"total_supply": 15185862.0,
+"max_supply":null,
+Quotes: {
+"Dollar": {
+"Price": 1.2369,
+"volume_24h": 660195.0,
+"market_cap": 18783392.0,
+"percent_change_1h": 0.84,
+"percent_change_24h": - 5.87,
+"percent_change_7d": -10.61
+}
+},
+"last_updated": 1529462954
+},
+"Metadata":{
+"time stamp": 1529462906,
+"Error": null
+}
+}
