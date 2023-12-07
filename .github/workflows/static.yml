@@ -1,43 +1,24 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
-
-on:
-  # Runs on pushes targeting the default branch
-  push:
-    branches: ["main"]
-
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
-# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
-
-jobs:
-  # Single deploy job since we're just deploying
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v2
-        with:
-          # Upload entire repository
-          path: '.'
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v3
+            - name: RegEx Issue Labeler
+  uses: github/issue-labeler@v3.3
+  with:
+    # The GITHUB_TOKEN secret
+    repo-token: # optional, default is ${{ github.token }}
+    # The path to the label configuration file. If the file doesn't exist at the specified path on the runner, action will read from the source repository via the Github API.
+    configuration-path: 
+    # Controls if versioned regex templates are being used
+    enable-versioned-regex: 
+    # The regex version number to use. Only required if using versioned regex files
+    versioned-regex: # optional
+    # Is optional and will result in any issues prior to this timestamp to be ignored
+    not-before: # optional
+    # The name of the label that should be added to an issue where the specified `version-regex` can not be found.
+    body-missing-regex-label: # optional
+    # Include the title in the regex target
+    include-title: # optional, default is 0
+    # Include the body in the regex target
+    include-body: # optional, default is 1
+    # Remove the label from the issue if the label regex does not match
+    sync-labels: # optional, default is 0
+    # The number of the issue/PR to label
+    issue-number: # optional, default is ${{ github.event.issue.number || github.event.pull_request.number }}
+          
