@@ -1,1 +1,5 @@
-idea
+idea:
+  - '(idea|wonder)'
+
+critical:
+    - '(critical|urgent)'
