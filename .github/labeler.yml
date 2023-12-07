@@ -3,3 +3,31 @@ idea:
 
 critical:
     - '(critical|urgent)'
+
+bug:
+  - '(bug|error)'
+
+documentation:
+    - '(doc|docs|documentation|document)'
+
+duplicate:
+  - '(duplicate|dupe|duplicated)'
+
+enhancment:
+    - '(create|enhance|enhancement|new|plan)'
+    
+help wanted:
+  - '(help|feedback|attention)'
+
+Iprovement:
+    - '(better|imporve|improving)'
+
+invalid:
+  - '(invalid)'
+
+needs info:
+    - '(more info|info needed|needing info|info)'
+
+question:
+    - '(ask|question|help|will|how)'
+
