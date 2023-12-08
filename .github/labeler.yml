@@ -19,7 +19,7 @@ enhancement:
 help wanted:
   - '(Help|help|Feedback|feedback|Attention|attention)'
 
-Iprovement:
+Improvement:
     - '(Better|better|Improve|imporve|Improving|improving)'
 
 invalid:
@@ -30,4 +30,7 @@ needs info:
 
 question:
     - '(Ask|ask|Question|question|Help|help|Will|will|How|how)'
+
+wontfix:
+    - '(Wont fix|wont fix|Irrelevant|irrelevant|Not needed|not needed
     
