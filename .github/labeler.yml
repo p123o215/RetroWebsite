@@ -14,7 +14,7 @@ duplicate:
   - '(Duplicate|duplicate|Dupe|dupe|Duplicated|duplicated)'
 
 enhancment:
-    - '(Create|create|Enhance|enhance|Enhancement|enhancement|New|new|Plan|plan)'
+    - '(Create|create|Enhance|enhance|Enhancement|enhancement|New|new|Plan|plan|Performance|performance)'
     
 help wanted:
   - '(Help|help|Feedback|feedback|Attention|attention)'
