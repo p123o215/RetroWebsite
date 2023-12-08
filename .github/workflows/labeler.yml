@@ -2,7 +2,10 @@ name: "Issue Labeler"
 
 on:
   issues:
-    types: [opened, edited, commented]
+    types: [opened, edited]
+
+  issue_comment:
+    types: [created, edited]
 
 permissions:
   issues: write
