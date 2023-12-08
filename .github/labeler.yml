@@ -1,33 +1,33 @@
 idea:
-  - '(idea|wonder)'
+  - '(Idea|idea|Wonder|wonder)'
 
 critical:
-    - '(critical|urgent)'
+    - '(Critical|critical|Urgent|urgent)'
 
 bug:
-  - '(bug|error)'
+  - '(Bug|bug|Error|error)'
 
 documentation:
-    - '(doc|docs|documentation|document)'
+    - '(Doc|doc|Docs|docs|Documentation|documentation|Document|document)'
 
 duplicate:
-  - '(duplicate|dupe|duplicated)'
+  - '(Duplicate|duplicate|Dupe|dupe|Duplicated|duplicated)'
 
 enhancment:
-    - '(create|enhance|enhancement|new|plan)'
+    - '(Create|create|Enhance|enhance|Enhancement|enhancement|New|new|Plan|plan)'
     
 help wanted:
-  - '(help|feedback|attention)'
+  - '(Help|help|Feedback|feedback|Attention|attention)'
 
 Iprovement:
-    - '(better|imporve|improving)'
+    - '(Better|better|Improve|imporve|Improving|improving)'
 
 invalid:
-  - '(invalid)'
+  - '(Invalid|invalid)'
 
 needs info:
-    - '(more info|info needed|needing info|info)'
+    - '(More info|more info|Info needed|info needed|Needing info|needing info|Info|info)'
 
 question:
-    - '(ask|question|help|will|how)'
-
+    - '(Ask|ask|Question|question|Help|help|Will|will|How|how)'
+    
