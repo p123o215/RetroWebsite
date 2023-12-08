@@ -1,7 +1,8 @@
 name: "Issue Labeler"
+
 on:
   issues:
-    types: [opened, edited]
+    types: [opened, edited, commented]
 
 permissions:
   issues: write
