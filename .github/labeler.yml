@@ -13,7 +13,7 @@ documentation:
 duplicate:
   - '(Duplicate|duplicate|Dupe|dupe|Duplicated|duplicated)'
 
-enhancment:
+enhancement:
     - '(Create|create|Enhance|enhance|Enhancement|enhancement|New|new|Plan|plan|Performance|performance)'
     
 help wanted:
