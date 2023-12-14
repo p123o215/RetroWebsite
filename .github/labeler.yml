@@ -32,5 +32,5 @@ question:
     - '(Ask|ask|Question|question|Help|help|Will|will|How|how)'
 
 wontfix:
-    - '(wont be worked on|Wont be worked on|Wont do|wont do|Wont fix|wont fix|Irrelevant|irrelevant|Not needed|not needed')
+    - '(wont be worked on|Wont be worked on|Wont do|wont do|Wont fix|wont fix|Irrelevant|irrelevant|Not needed|not needed)'
     
