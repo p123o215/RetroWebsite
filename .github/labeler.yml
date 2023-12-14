@@ -5,7 +5,7 @@ critical:
     - '(Critical|critical|Urgent|urgent)'
 
 bug:
-  - '(Bug|bug|Error|error)'
+  - '(Bug|bug|Error|error|Issue|issue)'
 
 documentation:
     - '(Doc|doc|Docs|docs|Documentation|documentation|Document|document)'
