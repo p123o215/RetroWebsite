@@ -22,10 +22,4 @@ jobs:
         configuration-path: .github/labeler.yml
         enable-versioned-regex: 0
         repo-token: ${{ github.token }}
-      
-    - run: gh issue edit "$NUMBER" --add-label "$LABELS"
-      env:
-        GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        GH_REPO: ${{ github.repository }}
-        NUMBER: ${{ github.event.issue.number }}
-        LABELS: triage
+
