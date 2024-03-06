@@ -8,7 +8,7 @@ ex.
 ```shell
 git clone https://github.com/p123o215/RetroWebsite/
 ```
-# Please do not copy and repost make changes then repost
+# Please do not copy and repost. Instead, please make changes to the code, then credit me in the repost
 
 
 
