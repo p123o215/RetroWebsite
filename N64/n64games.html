@@ -139,6 +139,23 @@
     <div class="img" style="float:right; margin-top:-240px;">
         <img src="n64cartridge.png" alt="N64Cartridge">
     </div>
+
+    <script>
+        function displayCSV(data) {
+          const table = $('#table').DataTable({
+            data: data,
+            columns: Object.keys(data[0]).map(header => ({ title: header }))
+          });
+        }
+        
+        // Example usage:
+        const data = [
+          { Name: 'John Doe', Age: 25 },
+          { Name: 'Jane Doe', Age: 30 },
+          { Name: 'Bob Smith', Age: 35 }
+        ];
+        displayCSV(data);
+    </script>
     
     <body>
         <div class="text">
